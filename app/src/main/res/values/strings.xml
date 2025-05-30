@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">LogiTrack</string>
+    <string name="add_delivery">Ajouter une livraison</string>
+    <string name="choose_product">Choisir un produit</string>
+    <string name="choose_client">Choisir un client</string>
+    <string name="choose_date">Choisir la date</string>
+    <string name="en_attente">En attente</string>
+    <string name="livre">Livré</string>
+    <string name="update_status">Mettre à jour le statut</string>
+    <string name="livraison_details">Détails de la livraison</string>
+</resources>

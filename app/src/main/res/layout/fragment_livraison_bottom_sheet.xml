@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="24dp">
+
+    <TextView
+        android:id="@+id/livraisonDetails"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Détails de la livraison"
+        android:textAppearance="?attr/textAppearanceHeadline6"
+        android:layout_marginBottom="16dp" />
+
+    <RadioGroup
+        android:id="@+id/statutRadioGroup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/radioEnAttente"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="En attente"
+            android:checked="true" />
+
+        <RadioButton
+            android:id="@+id/radioLivre"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Livré"
+            android:layout_marginStart="24dp" />
+    </RadioGroup>
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/updateButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Mettre à jour le statut"
+        android:layout_marginTop="24dp" />
+
+</LinearLayout>
